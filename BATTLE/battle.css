@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+} 
+ 
+ .flex{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ body{
+    width: 100%;
+    height: 50rem;
+    background-color: beige;
+}
+.wrapper{
+    text-align: center;
+}
+.result-box{
+    width: 30%;
+    height: 10rem;
+    margin: 10rem auto;
+    border-radius: 50%;
+    background-color: blue;
+}
+.result-box p{
+    color: chartreuse;
+}
+.result-word{
+    font-size: 6rem;
+}
+footer{
+    width: 100%;
+    height: 10rem;
+}
